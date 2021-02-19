@@ -9,8 +9,6 @@ use crate::middleware::{Middleware, Next};
 use crate::register_method;
 use crate::{Request, Response};
 
-///  ===================== TODO =====================
-
 const NESTED_ROUTER: &str = "--nested-router";
 
 lazy_static::lazy_static! {

@@ -6,8 +6,6 @@ use crate::{
 use crate::request::request::Request;
 use crate::response::response::Response;
 
-///  ===================== TODO =====================
-
 #[derive(Debug, Clone)]
 pub struct WithState<T: Send + Sync + 'static> {
     extension: AppState<T>,

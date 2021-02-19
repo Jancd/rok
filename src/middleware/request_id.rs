@@ -4,8 +4,6 @@ use crate::{
 use crate::request::request::Request;
 use crate::response::response::Response;
 
-///  ===================== TODO =====================
-
 const RANDOM_STRING_LEN: usize = 6;
 
 #[derive(Debug, Clone, Default)]
